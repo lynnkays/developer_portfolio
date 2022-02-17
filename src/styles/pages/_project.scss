@@ -1,0 +1,21 @@
+#project {
+  h2,
+  hr {
+    display: inline-flex;
+    z-index: 5;
+    opacity: 100%;
+  }
+  div {
+    width: 60vw;
+    margin: 1vh 10vw;
+    text-align: center;
+
+    h4 {
+      color: $tea-green;
+      a {
+        text-decoration: none;
+        color: $dark-salmon;
+      }
+    }
+  }
+}

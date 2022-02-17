@@ -1,0 +1,126 @@
+#experience {
+  h2,
+  hr {
+    display: inline-flex;
+  }
+  .experience-menu {
+    display: inline-flex;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+
+    .tab-column {
+      float: left;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 20vw;
+
+      .tabs {
+        font-family: $title-font-family;
+        font-size: 2.5em;
+        color: $tea-green;
+        border: $dark-salmon solid 4px;
+        border-radius: 25px;
+        background-color: $deep-space-sparkle;
+        padding: 1vh 2vw;
+        margin: 1vh 2vw;
+      }
+      .tab-selected {
+        border: $redwood solid 5px;
+        color: $light-goldenrod-yellow;
+        transition: ease-in-out 500ms;
+      }
+    }
+    .content-column {
+      float: right;
+      width: 60vw;
+
+      .content {
+        border: $redwood solid 5px;
+        border-radius: 25px;
+        padding: 2vh 2vw;
+        display: none;
+      }
+      .active-content {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+          color: $light-goldenrod-yellow;
+          font-weight: 600;
+          padding: 0;
+          margin: 0;
+        }
+        p {
+          color: $light-goldenrod-yellow;
+        }
+
+        ul {
+          list-style-type: square;
+          padding: 0 2vw;
+          margin: 0;
+
+          li {
+            color: $light-goldenrod-yellow;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  #experience {
+    h2 {
+      margin-bottom: 5vh;
+    }
+    hr {
+      width: 35vw;
+    }
+    .experience-menu {
+      display: flex;
+      flex-direction: column;
+      .tab-column {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        .tabs {
+          margin: 0;
+          margin-bottom: 1vh;
+          border: none;
+          border-radius: 0px;
+          border-left: $dark-salmon solid 2px;
+          font-size: 3em;
+        }
+        .tab-selected {
+          border: none;
+          border-radius: 0px;
+          border-left: $redwood solid 2px;
+          color: $dark-salmon;
+        }
+      }
+      .content-column {
+        width: 70vw;
+        .content {
+          border: $dark-salmon solid 2px;
+          border-radius: 10px;
+          padding: 2vh 5vw;
+        }
+        .active-content {
+          h4 {
+            font-size: 4em;
+          }
+          p {
+            font-size: 3em;
+          }
+          ul {
+            li {
+              font-size: 2em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

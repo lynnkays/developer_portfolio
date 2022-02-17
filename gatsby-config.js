@@ -5,6 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Lynnkays`,
+    description: `Kaylynn Diaz's Web Portfolio`,
+    author: `Kaylynn Diaz`,
+  },
+  plugins: [`gatsby-plugin-sass`],
 }

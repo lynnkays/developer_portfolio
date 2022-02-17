@@ -1,0 +1,31 @@
+
+.top-nav {
+  .hide-icons {
+    display: none;
+  }
+  .show-icons {
+    position: fixed;
+    right: 0;
+    display: inline-flex;
+
+    ul {
+      list-style-type: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    li {
+      margin-top: 1vh;
+      padding: 1vh 3vw;
+
+      &:hover {
+        background-color: $medium-carmine;
+        border-radius: 25px;
+      }
+
+      a {
+        margin-top: 1vh;
+        padding-top: 1vh;
+      }
+    }
+  }
+}

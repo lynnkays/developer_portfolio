@@ -1,0 +1,25 @@
+#contact {
+  h2,
+  hr {
+    display: inline-flex;
+  }
+
+  h4 {
+    text-align: center;
+    width: 60vw;
+    padding: 1vh 2vw;
+    margin: 2vh 5vw;
+  }
+  a {
+    text-decoration: none;
+    color: $dark-salmon;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    hr {
+      width: 35vw;
+    }
+  }
+}
