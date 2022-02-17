@@ -92,7 +92,6 @@ const Experience = () => {
   return (
     <div className="block" id="experience">
       <h2>Experience</h2>
-      <hr />
       <div className="experience-menu">
         <div className="tab-column">{tabs}</div>
         <div className="content-column">{content}</div>

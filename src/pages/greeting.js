@@ -3,7 +3,7 @@ import "../styles/global.scss"
 
 const Greeting = () => {
   return (
-    <div className="block">
+    <div>
       <div id="greeting">
         <h4>Hello my name is</h4>
         <h1>Kaylynn Diaz.</h1>

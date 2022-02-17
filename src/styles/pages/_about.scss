@@ -1,33 +1,26 @@
 #about {
-  h2,
-  hr {
-    display: inline-flex;
-  }
   .about-content {
-    padding-left: 5vw;
-    height: 10vh;
-
-    ul {
-      display: inline-flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: flex-start;
-      margin: 1vh 2vw;
-      width: 12vw;
-      height: 12vh;
-
-      li {
-        margin: 1vh 2vw;
-      }
-    }
+    padding: 5vh 5vw;
+    border: $dark-salmon solid 5px;
+    border-radius: 25px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #about {
-    p {
-      font-size: 3em;
+    height: 100vh;
+    text-align: left;
+    h2 {
+      color: $dark-salmon;
+    }
+    .about-content {
+      border: none;
+      margin: 0;
+      padding: 0;
+      p {
+        margin: 2vh 0;
+        font-size: 3em;
+      }
     }
   }
 }

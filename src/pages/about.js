@@ -4,7 +4,6 @@ const About = () => {
   return (
     <div className="block" id="about">
       <h2>About Me</h2>
-      <hr />
       <div className="about-content">
         <p>
           Hello! My name is Kaylynn Diaz and I enjoy developing new and

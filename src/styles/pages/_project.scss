@@ -1,14 +1,9 @@
 #project {
-  h2,
-  hr {
-    display: inline-flex;
-    z-index: 5;
-    opacity: 100%;
-  }
+  text-align: center;
   div {
     width: 60vw;
-    margin: 1vh 10vw;
     text-align: center;
+    padding: 5vh 1vw;
 
     h4 {
       color: $tea-green;

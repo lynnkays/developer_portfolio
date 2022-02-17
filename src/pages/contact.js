@@ -4,7 +4,6 @@ const Contact = () => {
   return (
     <div className="block" id="contact">
       <h2>Contact Me</h2>
-      <hr />
       <h4>Need a website built or are interested to connect?</h4>
       <h4>
         Reach me anytime through my{" "}

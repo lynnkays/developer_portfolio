@@ -38,13 +38,12 @@ body {
   .block {
     height: 70vh;
     padding: 10vh 10vw;
+    max-width: 75vw;
     background-color: $deep-space-sparkle;
-    hr {
-      border: 3px solid $dark-salmon;
-      fill: $dark-salmon;
-      width: 40vw;
-      height: 0;
-      margin-left: 5vw;
+    margin: 5vh 10vw;
+
+    h2 {
+      text-align: center;
     }
 
     ul {
@@ -76,5 +75,17 @@ body {
   html,
   body {
     font-size: 5px;
+    margin: 0 0;
+    padding: 0 0;
+
+    .block {
+      height: 100vh;
+      padding: 5vh 5vw;
+      margin: 5vh 10vw;
+
+      h2 {
+        text-align: center;
+      }
+    }
   }
 }

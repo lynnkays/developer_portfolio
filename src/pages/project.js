@@ -5,7 +5,6 @@ const Project = () => {
   return (
     <div className="block" id="project">
       <h2>Projects</h2>
-      <hr />
       <div>
         <h4>
           Explore my current projects and course work {" "}
